@@ -42,89 +42,51 @@ public class Fixed implements Serializable {
 
     private Date outTime;
 
-    /**
-    * 
-    */
-    private void setFixedId(String fixedId){
-    this.fixedId = fixedId;
+    public String getFixedId() {
+        return fixedId;
     }
 
-    /**
-    * 
-    */
-    private void setCardId(String cardId){
-    this.cardId = cardId;
+    public void setFixedId(String fixedId) {
+        this.fixedId = fixedId;
     }
 
-    /**
-    * 
-    */
-    private void setEntryDate(Date entryDate){
-    this.entryDate = entryDate;
+    public String getCardId() {
+        return cardId;
     }
 
-    /**
-    * 
-    */
-    private void setEntryTime(Date entryTime){
-    this.entryTime = entryTime;
+    public void setCardId(String cardId) {
+        this.cardId = cardId;
     }
 
-    /**
-    * 
-    */
-    private void setOutDate(Date outDate){
-    this.outDate = outDate;
+    public Date getEntryDate() {
+        return entryDate;
     }
 
-    /**
-    * 
-    */
-    private void setOutTime(Date outTime){
-    this.outTime = outTime;
+    public void setEntryDate(Date entryDate) {
+        this.entryDate = entryDate;
     }
 
-
-    /**
-    * 
-    */
-    private String getFixedId(){
-    return this.fixedId;
+    public Date getEntryTime() {
+        return entryTime;
     }
 
-    /**
-    * 
-    */
-    private String getCardId(){
-    return this.cardId;
+    public void setEntryTime(Date entryTime) {
+        this.entryTime = entryTime;
     }
 
-    /**
-    * 
-    */
-    private Date getEntryDate(){
-    return this.entryDate;
+    public Date getOutDate() {
+        return outDate;
     }
 
-    /**
-    * 
-    */
-    private Date getEntryTime(){
-    return this.entryTime;
+    public void setOutDate(Date outDate) {
+        this.outDate = outDate;
     }
 
-    /**
-    * 
-    */
-    private Date getOutDate(){
-    return this.outDate;
+    public Date getOutTime() {
+        return outTime;
     }
 
-    /**
-    * 
-    */
-    private Date getOutTime(){
-    return this.outTime;
+    public void setOutTime(Date outTime) {
+        this.outTime = outTime;
     }
-
 }

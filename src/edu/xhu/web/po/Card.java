@@ -33,89 +33,51 @@ public class Card implements Serializable {
     */
     private String carNum;
 
-    /**
-    * 
-    */
-    private void setCardId(String cardId){
-    this.cardId = cardId;
+    public String getCardId() {
+        return cardId;
     }
 
-    /**
-    * 
-    */
-    private void setSeatId(String seatId){
-    this.seatId = seatId;
+    public void setCardId(String cardId) {
+        this.cardId = cardId;
     }
 
-    /**
-    * 
-    */
-    private void setUserName(String userName){
-    this.userName = userName;
+    public String getSeatId() {
+        return seatId;
     }
 
-    /**
-    * 
-    */
-    private void setUserGender(String userGender){
-    this.userGender = userGender;
+    public void setSeatId(String seatId) {
+        this.seatId = seatId;
     }
 
-    /**
-    * 
-    */
-    private void setUserAddr(String userAddr){
-    this.userAddr = userAddr;
+    public String getUserName() {
+        return userName;
     }
 
-    /**
-    * 
-    */
-    private void setCarNum(String carNum){
-    this.carNum = carNum;
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
-
-    /**
-    * 
-    */
-    private String getCardId(){
-    return this.cardId;
+    public String getUserGender() {
+        return userGender;
     }
 
-    /**
-    * 
-    */
-    private String getSeatId(){
-    return this.seatId;
+    public void setUserGender(String userGender) {
+        this.userGender = userGender;
     }
 
-    /**
-    * 
-    */
-    private String getUserName(){
-    return this.userName;
+    public String getUserAddr() {
+        return userAddr;
     }
 
-    /**
-    * 
-    */
-    private String getUserGender(){
-    return this.userGender;
+    public void setUserAddr(String userAddr) {
+        this.userAddr = userAddr;
     }
 
-    /**
-    * 
-    */
-    private String getUserAddr(){
-    return this.userAddr;
+    public String getCarNum() {
+        return carNum;
     }
 
-    /**
-    * 
-    */
-    private String getCarNum(){
-    return this.carNum;
+    public void setCarNum(String carNum) {
+        this.carNum = carNum;
     }
-
 }

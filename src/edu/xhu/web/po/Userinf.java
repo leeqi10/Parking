@@ -42,89 +42,51 @@ public class Userinf implements Serializable {
 
     private String userPhone;
 
-    /**
-    * 
-    */
-    private void setUserId(String userId){
-    this.userId = userId;
+    public String getUserId() {
+        return userId;
     }
 
-    /**
-    * 
-    */
-    private void setRoleId(String roleId){
-    this.roleId = roleId;
+    public void setUserId(String userId) {
+        this.userId = userId;
     }
 
-    /**
-    * 
-    */
-    private void setUserName(String userName){
-    this.userName = userName;
+    public String getRoleId() {
+        return roleId;
     }
 
-    /**
-    * 
-    */
-    private void setRealName(String realName){
-    this.realName = realName;
+    public void setRoleId(String roleId) {
+        this.roleId = roleId;
     }
 
-    /**
-    * 
-    */
-    private void setUserPwd(String userPwd){
-    this.userPwd = userPwd;
+    public String getUserName() {
+        return userName;
     }
 
-    /**
-    * 
-    */
-    private void setUserPhone(String userPhone){
-    this.userPhone = userPhone;
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
-
-    /**
-    * 
-    */
-    private String getUserId(){
-    return this.userId;
+    public String getRealName() {
+        return realName;
     }
 
-    /**
-    * 
-    */
-    private String getRoleId(){
-    return this.roleId;
+    public void setRealName(String realName) {
+        this.realName = realName;
     }
 
-    /**
-    * 
-    */
-    private String getUserName(){
-    return this.userName;
+    public String getUserPwd() {
+        return userPwd;
     }
 
-    /**
-    * 
-    */
-    private String getRealName(){
-    return this.realName;
+    public void setUserPwd(String userPwd) {
+        this.userPwd = userPwd;
     }
 
-    /**
-    * 
-    */
-    private String getUserPwd(){
-    return this.userPwd;
+    public String getUserPhone() {
+        return userPhone;
     }
 
-    /**
-    * 
-    */
-    private String getUserPhone(){
-    return this.userPhone;
+    public void setUserPhone(String userPhone) {
+        this.userPhone = userPhone;
     }
-
 }

@@ -7,6 +7,6 @@ import java.io.IOException;
 public class testParking {
     public static void main(String[] args) throws IOException {
         JDBCUtils.ProcessingJDBC("jdbc.properties");
-
+        System.out.println("测试成功");
     }
 }

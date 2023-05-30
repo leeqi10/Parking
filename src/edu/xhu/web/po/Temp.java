@@ -54,117 +54,67 @@ public class Temp implements Serializable {
 
     private Double tempMoney;
 
-    /**
-    * 
-    */
-    private void setTempId(String tempId){
-    this.tempId = tempId;
+    public String getTempId() {
+        return tempId;
     }
 
-    /**
-    * 
-    */
-    private void setCardId(String cardId){
-    this.cardId = cardId;
+    public void setTempId(String tempId) {
+        this.tempId = tempId;
     }
 
-    /**
-    * 
-    */
-    private void setCarNum(String carNum){
-    this.carNum = carNum;
+    public String getCardId() {
+        return cardId;
     }
 
-    /**
-    * 
-    */
-    private void setEntryDate(Date entryDate){
-    this.entryDate = entryDate;
+    public void setCardId(String cardId) {
+        this.cardId = cardId;
     }
 
-    /**
-    * 
-    */
-    private void setEntryTime(Date entryTime){
-    this.entryTime = entryTime;
+    public String getCarNum() {
+        return carNum;
     }
 
-    /**
-    * 
-    */
-    private void setOutDate(Date outDate){
-    this.outDate = outDate;
+    public void setCarNum(String carNum) {
+        this.carNum = carNum;
     }
 
-    /**
-    * 
-    */
-    private void setOutTime(Date outTime){
-    this.outTime = outTime;
+    public Date getEntryDate() {
+        return entryDate;
     }
 
-    /**
-    * 
-    */
-    private void setTempMoney(Double tempMoney){
-    this.tempMoney = tempMoney;
+    public void setEntryDate(Date entryDate) {
+        this.entryDate = entryDate;
     }
 
-
-    /**
-    * 
-    */
-    private String getTempId(){
-    return this.tempId;
+    public Date getEntryTime() {
+        return entryTime;
     }
 
-    /**
-    * 
-    */
-    private String getCardId(){
-    return this.cardId;
+    public void setEntryTime(Date entryTime) {
+        this.entryTime = entryTime;
     }
 
-    /**
-    * 
-    */
-    private String getCarNum(){
-    return this.carNum;
+    public Date getOutDate() {
+        return outDate;
     }
 
-    /**
-    * 
-    */
-    private Date getEntryDate(){
-    return this.entryDate;
+    public void setOutDate(Date outDate) {
+        this.outDate = outDate;
     }
 
-    /**
-    * 
-    */
-    private Date getEntryTime(){
-    return this.entryTime;
+    public Date getOutTime() {
+        return outTime;
     }
 
-    /**
-    * 
-    */
-    private Date getOutDate(){
-    return this.outDate;
+    public void setOutTime(Date outTime) {
+        this.outTime = outTime;
     }
 
-    /**
-    * 
-    */
-    private Date getOutTime(){
-    return this.outTime;
+    public Double getTempMoney() {
+        return tempMoney;
     }
 
-    /**
-    * 
-    */
-    private Double getTempMoney(){
-    return this.tempMoney;
+    public void setTempMoney(Double tempMoney) {
+        this.tempMoney = tempMoney;
     }
-
 }

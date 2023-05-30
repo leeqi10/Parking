@@ -36,75 +36,43 @@ public class Seat implements Serializable {
 
     private String seatTag;
 
-    /**
-    * 
-    */
-    private void setSeatId(String seatId){
-    this.seatId = seatId;
+    public String getSeatId() {
+        return seatId;
     }
 
-    /**
-    * 
-    */
-    private void setSeatNum(String seatNum){
-    this.seatNum = seatNum;
+    public void setSeatId(String seatId) {
+        this.seatId = seatId;
     }
 
-    /**
-    * 
-    */
-    private void setSeatSection(String seatSection){
-    this.seatSection = seatSection;
+    public String getSeatNum() {
+        return seatNum;
     }
 
-    /**
-    * 
-    */
-    private void setSeatState(Integer seatState){
-    this.seatState = seatState;
+    public void setSeatNum(String seatNum) {
+        this.seatNum = seatNum;
     }
 
-    /**
-    * 
-    */
-    private void setSeatTag(String seatTag){
-    this.seatTag = seatTag;
+    public String getSeatSection() {
+        return seatSection;
     }
 
-
-    /**
-    * 
-    */
-    private String getSeatId(){
-    return this.seatId;
+    public void setSeatSection(String seatSection) {
+        this.seatSection = seatSection;
     }
 
-    /**
-    * 
-    */
-    private String getSeatNum(){
-    return this.seatNum;
+    public Integer getSeatState() {
+        return seatState;
     }
 
-    /**
-    * 
-    */
-    private String getSeatSection(){
-    return this.seatSection;
+    public void setSeatState(Integer seatState) {
+        this.seatState = seatState;
     }
 
-    /**
-    * 
-    */
-    private Integer getSeatState(){
-    return this.seatState;
+    public String getSeatTag() {
+        return seatTag;
     }
 
-    /**
-    * 
-    */
-    private String getSeatTag(){
-    return this.seatTag;
+    public void setSeatTag(String seatTag) {
+        this.seatTag = seatTag;
     }
-
 }
