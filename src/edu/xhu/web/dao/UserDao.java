@@ -61,7 +61,7 @@ public class UserDao {
             userinf.setUserPhone(userPhone);
             return userinf;
         }else {
-            logger.info("===登录失败===");
+            logger.info("===密码错误===");
             return null;
         }
     }
