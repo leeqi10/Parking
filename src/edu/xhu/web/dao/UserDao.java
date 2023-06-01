@@ -60,7 +60,9 @@ public class UserDao {
             userinf.setUserName(userName);
             userinf.setUserPhone(userPhone);
             return userinf;
+        }else {
+            logger.info("===登录失败===");
+            return null;
         }
-        return null;
     }
 }
