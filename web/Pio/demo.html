@@ -1,38 +1,29 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: tq
-  Date: 2023/5/31
-  Time: 11:08
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Title</title>
-    <!-- 引用看板娘交互所需的样式表 -->
-    <link href='./Pio/static/pio.css' rel='stylesheet' type='text/css'/>
+
+<!-- 引用看板娘交互所需的样式表 -->
+<link href='./static/pio.css' rel='stylesheet' type='text/css'/>
 </head>
 <body>
-<form action="${pageContext.request.contextPath}/serv02">
-    <input name="user"/>
-    <input name="password">
-    <button type="submit">提交</button>
-</form>
-
-
 <div class="pio-container right">
-    <div class="pio-action"></div>
-    <canvas id="pio" width="{300}" height="{300}"></canvas>
+  <div class="pio-action"></div>
+  <canvas id="pio" width="{300}" height="{300}"></canvas>
 </div>
 
+
+
 <!-- 引用 Live2D 核心组件 -->
-<script src='./Pio/static/l2d.js'></script>
+<script src='./static/l2d.js'></script>
 <!-- 引用看板娘交互组件 -->
-<script src='./Pio/static/pio.js'></script>
+<script src='./static/pio.js'></script>
+
 <script>
 
     var pio = new Paul_Pio({
-        "mode": "draggable",
+        "mode": "static",
         "hidden": false,
         "content": {
             "welcome": ["你好，欢迎来到保罗的小窝", "我是从云，傲完就娇的从云~"],
@@ -50,9 +41,10 @@
             ]
         },
         "night": "single.night()",
-        "model": ["./Pio/models/pio/model.json"],
+        "model": ["models/pio/model.json"],
         "tips": true
     });
 </script>
+
 </body>
 </html>
